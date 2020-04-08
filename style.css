@@ -5,24 +5,52 @@
 }
 
 aside {
-    width: calc(100vw - 90vw);
+    width: 15%;
     height: calc(100vh - 100px);
-    background-color: grey;
+    background-color: #1a1801;
     float: left;
+}
+
+aside svg {
+    fill: white;
 }
 
 main {
-    width: 90vw;
+    width: 85%;
     height: calc(100vh - 100px);
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
     float: left;
+    background: linear-gradient(140deg, rgba(2,0,36,1) 0%, rgba(103,9,121,1) 100%);
 }
 
+.container {
+    background-color: white;
+    height: 100%;
+    width: 75%;
+    margin: auto;
+    padding: 30px;
+}
 
+.menu-container {
+    text-align: center;
+}
+
+.menu-container ul {
+    list-style-type: none;
+}
+
+.menu-container li {
+    text-transform: uppercase;
+    display: inline;
+}
+
+.menu-container a {
+    padding: 0 15px;
+}
 
 footer {
     height: 100px;
-    background-color: black;
-    width: 100vw;
+    background-color: #282828;
+    width: 100%;
     float: left;
 }

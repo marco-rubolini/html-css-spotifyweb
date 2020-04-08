@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+aside {
+    width: calc(100vw - 90vw);
+    height: calc(100vh - 100px);
+    background-color: grey;
+    float: left;
+}
+
+main {
+    width: 90vw;
+    height: calc(100vh - 100px);
+    background-color: lightgreen;
+    float: left;
+}
+
+
+
+footer {
+    height: 100px;
+    background-color: black;
+    width: 100vw;
+    float: left;
+}

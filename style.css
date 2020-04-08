@@ -109,3 +109,30 @@ section {
 .name {
     color: lightgrey;
 }
+
+.now-playing-bar {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+}
+
+.now-playing-bar-left {
+    float: left;
+    background: aqua;
+    width: 20%;
+    height: 100%;
+}
+
+.now-playing-bar-center {
+    float: left;
+    background: red;
+    width: 60%;
+    height: 100%;
+}
+
+.now-playing-bar-right {
+    float: left;
+    background: blue;
+    width: 20%;
+    height: 100%;
+}

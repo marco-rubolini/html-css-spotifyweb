@@ -16,8 +16,15 @@ aside {
     color: white;
 }
 
-aside svg {
-    fill: white;
+
+
+#menu-nav-verticale a, #download-app a, #profilo a, #recenti {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.active {
+    border-left: 3px solid #1dd961;
 }
 
 main {
@@ -26,7 +33,7 @@ main {
     /* background-color: lightgreen; */
     float: left;
     background: linear-gradient(140deg, rgba(2,0,36,1) 0%, rgba(103,9,121,1) 100%);
-    
+    overflow-y: auto;
 }
 
 
@@ -45,6 +52,10 @@ main {
     width: 100%
 }
 
+
+ul {
+    list-style-type: none;
+}
 
 .menu-container ul {
     list-style-type: none;

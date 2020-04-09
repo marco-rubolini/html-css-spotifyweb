@@ -15,6 +15,7 @@ aside {
     background-color: #1a1801;
     float: left;
     color: white;
+    font-size: 14px;
 }
 
 span::after {
@@ -95,6 +96,7 @@ footer {
     background-color: #282828;
     width: 100%;
     float: left;
+    color: #dedede;
 }
 
 section {
@@ -144,27 +146,73 @@ section {
     width: 100%;
     margin: auto;
     height: 100%;
+    display: flex;
 }
 
 .now-playing-bar-left {
-    float: left;
+    /* float: left; */
     /* background: aqua; */
+    /* width: 20%;
+    height: 100%; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
     width: 20%;
-    height: 100%;
+}
+
+.cover-play {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-play {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.favorite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .now-playing-bar-center {
-    float: left;
+    /* float: left; */
     /* background: red; */
+    /* width: 60%;
+    height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 60%;
-    height: 100%;
+}
+
+.control-player, .time-bar-player {
+    display: flex;
+    justify-content: center;
 }
 
 .now-playing-bar-right {
-    float: left;
+    /* float: left; */
     /* background: blue; */
+    /* width: 20%;
+    height: 100%; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     width: 20%;
-    height: 100%;
+}
+
+.now-playing-bar-right i, .now-playing-bar-center i {
+    padding: 10px;
+}
+
+.time {
+    margin: 0 10px;
 }
 
 #logo, #menu-nav-aside, #recenti {
@@ -186,4 +234,22 @@ svg {
 
 .aside-bottom i {
     margin-right: 10px;
+}
+
+.dropdown {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .info-play {
+        display: none;
+    }
+
+    .dropdown {
+        display: block;
+    }
+
+    .menu-container {
+        display: none;
+    }
 }

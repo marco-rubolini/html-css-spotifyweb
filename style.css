@@ -148,21 +148,21 @@ section {
 
 .now-playing-bar-left {
     float: left;
-    background: aqua;
+    /* background: aqua; */
     width: 20%;
     height: 100%;
 }
 
 .now-playing-bar-center {
     float: left;
-    background: red;
+    /* background: red; */
     width: 60%;
     height: 100%;
 }
 
 .now-playing-bar-right {
     float: left;
-    background: blue;
+    /* background: blue; */
     width: 20%;
     height: 100%;
 }
